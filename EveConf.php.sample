@@ -1,0 +1,19 @@
+<?php
+
+//find it here https://developers.eveonline.com/applications
+define('EVE_SECRET', 'someSecret');
+
+//find it here https://developers.eveonline.com/applications
+define('EVE_CLIENT_ID', 'someClientId');
+
+//find it here https://developers.eveonline.com/applications
+define('EVE_SCOPE', 'Some Scopes Can Be Copied By Copy Scopes To Clipboard Button');
+
+//Unique key of you app
+define('EVE_STATE', 'ItCanBeAnyThing');
+
+//What is the base redirect after auth?
+define('EVE_BASE_REDIRECT_URL', "//$_SERVER[HTTP_HOST]/");
+
+//find it here https://developers.eveonline.com/applications
+define('EVE_REDIRECT', 'https%3A%2F%2Flocalhost%2Fcallback%2F');
